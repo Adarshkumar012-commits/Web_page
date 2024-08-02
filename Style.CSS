@@ -1,0 +1,215 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+    color: #fff; /* White text color */
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 40px; /* Size of the logo */
+    margin-right: 10px; /* Space between the logo and text */
+}
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke; /* White text color */
+}
+.navbar .nav-links {
+    display: flex;
+}
+.navbar .nav-links a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.navbar .nav-links a:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+.container {
+    padding: 20px;
+}
+
+.heading {
+    font-size: 2.5em; /* Large font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark grey color */
+    margin: 20px 0; /* Vertical spacing */
+    padding: 10px; /* Padding inside the heading */
+    background-color: #e9ecef; /* Light background color */
+    border-left: 5px solid #007bff; /* Blue left border */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Shrink to fit text */
+}
+h2 {
+    font-size: 2em; /* Large font size */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Blue color */
+    margin: 20px 0; /* Vertical spacing */
+    padding: 10px; /* Padding inside the heading */
+    background-color: coral; /* White background for the heading */
+    border-left: 5px solid #007bff; /* Blue left border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center the text */
+}
+
+
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    max-width: 600px; /* Maximum width of the container */
+    text-align: inherit;
+}
+p {
+    font-size: 1.0em; /* Larger font size for readability */
+    color: #333; /* Dark grey color for text */
+    line-height: 1.2; /* Increased line height for readability */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+
+
+
+h2 {
+    font-size: 1.5em; /* Large font size */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Blue color */
+    margin: 20px 0; /* Vertical spacing */
+    padding: 10px; /* Padding inside the heading */
+    background-color: #ffffff; /* White background for the heading */
+    border-left: 5px solid #007bff; /* Blue left border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center the text */
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between; /* Space between the boxes */
+    flex-wrap: wrap; /* Wrap to next line if necessary */
+    gap: 20px; /* Space between boxes */
+}
+.video-box {
+    background-color: #ffffff; /* White background for each box */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 300px; /* Maximum width of each box */
+    padding: 10px;
+    text-align: center; /* Center align content */
+}
+.video-box iframe {
+    width: 100%; /* Make the iframe fit the width of the box */
+    height: 200px; /* Set a fixed height for the video */
+    border: none; /* Remove default iframe border */
+    border-radius: 8px; /* Rounded corners for the iframe */
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next line if necessary */
+    gap: 20px; /* Space between boxes */
+    justify-content: center; /* Center align the boxes */
+}
+.info-box {
+    background-color: #ffffff; /* White background for each box */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    width: 200px; /* Fixed width for each box */
+    text-align: center; /* Center align text */
+}
+h3 {
+    font-size: 1.5em; /* Font size for the heading */
+    color: #007bff; /* Blue color for the heading */
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+p {
+    margin: 0; /* Remove default margin */
+    font-size: 1em; /* Font size for text */
+    color: #333; /* Dark grey color for text */
+}
+
+
+.cta-container {
+    background-color: #ffffff; /* White background for the container */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
+.cta-container h2 {
+    font-size: 1.5em; /* Font size for the heading */
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+.cta-container button {
+    background-color: #007bff; /* Blue background for the button */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+.cta-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.institute-container {
+    background-color: #ffffff; /* White background for the container */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    max-width: 600px; /* Maximum width of the container */
+    margin: 0 auto; /* Center container horizontally */
+    text-align: center; /* Center align text */
+}
+.institute-container h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+.institute-container p {
+    font-size: 1em; /* Font size for the paragraph */
+    color: #333; /* Dark grey color for text */
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+.institute-container button {
+    background-color: #007bff; /* Blue background for the button */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+.institute-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
